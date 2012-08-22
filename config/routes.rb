@@ -3,7 +3,7 @@ App::Application.routes.draw do
 
   root :to => 'static_pages#home'
 
-  match '/signup', to: 'users#new'
+  match '/signup_path', to: 'users#new'
   match '/users', to: 'users#new'
   match '/new', to: 'users#new'
 
